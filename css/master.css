@@ -1,0 +1,80 @@
+
+/* AZUL #5197b1
+  VERDE #56b0a2 */
+
+#principal{
+  background-color: black;
+  color:white;
+  height: 100vh;
+
+}
+
+#queEs{
+  background-color: #5197b1;
+  height: 100vh;
+}
+
+#showsImpulsados{
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+#masPedidos{
+    background-color: #56b0a2;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    width: 100%;
+
+}
+
+#pedidos{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+}
+
+#requests{
+    width: 100%;
+}
+
+#footer{
+  background-color: black;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.showRequest{
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 3px black solid;
+}
+
+.prueba{
+  background-color: red;
+  border: 9px black solid;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.boxEvento{
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin:auto;
+  display: flex;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.botonesBoxEvento{
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  justify-content:space-between;
+
+}
