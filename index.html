@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100|Nunito+Sans:200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/master.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
@@ -13,20 +14,74 @@
 ========================================================== -->
 
     <header>
-      <div class="container-fluid" id="principal">
-        <h1>ESTE ES EL HEADER</h1>
+      <div class="container-fluid" id="principal" style="position:relative;">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/logo-nav.png" alt="showstarter-logo" style="height:3vh;">
+          </a>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              =
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Ingresar</a>
+              <a class="dropdown-item" href="#">Todos los shows</a>
+              <a class="dropdown-item" href="#">FAQs</a>
+            </div>
+          </div>
+        </nav>
+
+        <br><br><br><br>
+          <img src="imagenes/logo-home.png" class="img-fluid" id="logoHome" alt="showstarter logo"> <br><br>
+        <h3>El show que quieras, donde quieras.</h3>
+
+
       </div>
     </header>
 
 <!-- QUE ES SS
 ========================================================== -->
 
-      <section>
-        <div class="container-fluid" id="queEs">
-      <h3>¿Qué es ShowStarter?</h3>
-      <h2>Somos la primera plataforma de financiamiento colectivo de espectaculos del país.
-Empoderamos al fan para que pueda ser parte de la agenda de espectáculos de su ciudad.
+    <section class="azul">
+      <div class="container-fluid" id="queEs">
+        <br><br>
+        <h5>¿Qué es ShowStarter?</h5><br>
+      <div class="centrado">
+        <h2>Somos la primera plataforma de financiamiento colectivo de espectaculos del país. Empoderamos al fan para que pueda ser parte de la agenda de espectáculos de su ciudad.
         </h2>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3 instrucciones">
+          <img src="imagenes/paso1.png" class="img-fluid" alt=""><br>
+          <p>Pedí ese show que te gustaría ver en tu ciudad, el que quieras.</p>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <img src="imagenes/paso2.png" class="img-fluid" alt=""><br>
+          <p>Aportá para el show y compartilo con tus contactos. Hacelo viral para juntar más fans.</p>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <img src="imagenes/paso3.png" class="img-fluid" alt=""><br>
+          <p>Si llegamos el mínimo el show queda confirmado, si no lo alcanzamos te devolvemos el 100% de tu aporte.</p>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <img src="imagenes/paso4.png" class="img-fluid" alt=""><br>
+          <p>Recibí tu entrada y disfrutá del show que vos hiciste posible.</p>
+        </div><br><br>
+
+        <div class="col-12 justify-content-center">
+          <h3>¿Ya sabés que show vas a pedir?</h3>
+            <div class="col-8 offset-2 justify-content-center"><button type="button" class="btn btn-outline-light btn-block">PEDÍ TU SHOW</button></div>
+        </div>
+    </div>
+  </div>
+
+      </div>
+
+
       </div>
     </section>
 
@@ -35,7 +90,7 @@ Empoderamos al fan para que pueda ser parte de la agenda de espectáculos de su 
 
     <section>
       <div class="container-fluid" id="showsImpulsados">
-        <h2>SHOWS IMPULSADOS</h2>
+        <h5>SHOWS IMPULSADOS</h5>
 
 <!-- ESTO ES UN SHOW
 ========================================================== -->
@@ -45,7 +100,41 @@ Empoderamos al fan para que pueda ser parte de la agenda de espectáculos de su 
             <div class="row">
 
               <div class="col-12 col-md-3 col-lg-3">
-                <img src="IMAGES/imagen-show.png" class="img-fluid" alt="">
+                <img src="imagenes/imagen-show.png" class="img-fluid" alt="">
+              </div>
+
+              <div class="col-12 col-md-9 col-lg-9">
+                <p>clase evento</p>
+                <h2>TITULO EVENTO</h2>
+                <h5>fecha</h5>
+                <h5>lugar</h5>
+                <h5>precio</h5>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                  </div>
+                </div>
+
+                <div class="row botonesBoxEvento">
+                  <div class="col-12 col-md-3 col-lg-3"><button type="button" class="btn btn-outline-info btn-block">MAS INFO</button></div>
+                  <div class="col-12 col-md-3 col-lg-3"><button type="button" class="btn btn-outline-info btn-block">APORTÁ</button></div>
+                  <div class="col-12 col-md-3 col-lg-3"><h5>COUNTDOWN</h5></div>
+                  <div class="col-12 col-md-3 col-lg-3"><h5>APORTANDO X/Y</h5></div>
+                </div>
+                </div>
+              </div>
+            </div>
+
+        </article>
+    <hr class="separador">
+<!-- ESTO ES UN SHOW
+========================================================== -->
+        <article>
+
+          <div class="container-fluid boxEvento">
+            <div class="row">
+
+              <div class="col-12 col-md-3 col-lg-3">
+                <img src="imagenes/imagen-show.png" class="img-fluid" alt="">
               </div>
 
               <div class="col-12 col-md-9 col-lg-9">
@@ -62,14 +151,15 @@ Empoderamos al fan para que pueda ser parte de la agenda de espectáculos de su 
                 <div class="row botonesBoxEvento">
                   <div class="col-12 col-md-3 col-lg-3"><button type="button" class="btn btn-outline-info">MAS INFO</button></div>
                   <div class="col-12 col-md-3 col-lg-3"><button type="button" class="btn btn-outline-info">APORTÁ</button></div>
-                  <div class="col-12 col-md-3 col-lg-3"><h3>COUNTDOWN</h3></div>
-                  <div class="col-12 col-md-3 col-lg-3"><h3>APORTANDO X/Y</h3></div>
+                  <div class="col-12 col-md-3 col-lg-3"><h5>COUNTDOWN</h5></div>
+                  <div class="col-12 col-md-3 col-lg-3"><h5>APORTANDO X/Y</h5></div>
                 </div>
                 </div>
               </div>
             </div>
 
         </article>
+    <hr class="separador">
 
 <!-- ESTO ES UN SHOW
 ========================================================== -->
@@ -79,15 +169,15 @@ Empoderamos al fan para que pueda ser parte de la agenda de espectáculos de su 
             <div class="row">
 
               <div class="col-12 col-md-3 col-lg-3">
-                <img src="IMAGES/imagen-show.png" class="img-fluid" alt="">
+                <img src="imagenes/imagen-show.png" class="img-fluid" alt="">
               </div>
 
               <div class="col-12 col-md-9 col-lg-9">
                 <p>clase evento</p>
-                <h1>TITULO EVENTO</h1>
-                <h4>fecha</h4>
-                <h4>lugar</h4>
-                <h4>precio</h4>
+                <h2>TITULO EVENTO</h2>
+                <h5>fecha</h5>
+                <h5>lugar</h5>
+                <h5>precio</h5>
                 <div class="progress">
                   <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
                   </div>
@@ -96,49 +186,15 @@ Empoderamos al fan para que pueda ser parte de la agenda de espectáculos de su 
                 <div class="row botonesBoxEvento">
                   <div class="col-12 col-md-3 col-lg-3"><button type="button" class="btn btn-outline-info">MAS INFO</button></div>
                   <div class="col-12 col-md-3 col-lg-3"><button type="button" class="btn btn-outline-info">APORTÁ</button></div>
-                  <div class="col-12 col-md-3 col-lg-3"><h3>COUNTDOWN</h3></div>
-                  <div class="col-12 col-md-3 col-lg-3"><h3>APORTANDO X/Y</h3></div>
+                  <div class="col-12 col-md-3 col-lg-3"><h5>COUNTDOWN</h5></div>
+                  <div class="col-12 col-md-3 col-lg-3"><h5>APORTANDO X/Y</h5></div>
                 </div>
                 </div>
               </div>
             </div>
 
         </article>
-
-<!-- ESTO ES UN SHOW
-========================================================== -->
-        <article>
-
-          <div class="container-fluid boxEvento">
-            <div class="row">
-
-              <div class="col-12 col-md-3 col-lg-3">
-                <img src="IMAGES/imagen-show.png" class="img-fluid" alt="">
-              </div>
-
-              <div class="col-12 col-md-9 col-lg-9">
-                <p>clase evento</p>
-                <h1>TITULO EVENTO</h1>
-                <h4>fecha</h4>
-                <h4>lugar</h4>
-                <h4>precio</h4>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
-                  </div>
-                </div>
-
-                <div class="row botonesBoxEvento">
-                  <div class="col-12 col-md-3 col-lg-3"><button type="button" class="btn btn-outline-info">MAS INFO</button></div>
-                  <div class="col-12 col-md-3 col-lg-3"><button type="button" class="btn btn-outline-info">APORTÁ</button></div>
-                  <div class="col-12 col-md-3 col-lg-3"><h3>COUNTDOWN</h3></div>
-                  <div class="col-12 col-md-3 col-lg-3"><h3>APORTANDO X/Y</h3></div>
-                </div>
-                </div>
-              </div>
-            </div>
-
-        </article>
-
+    <hr class="separador">
 
         <!-- ESTO ES UN SHOW
 ========================================================== -->
@@ -148,7 +204,7 @@ Empoderamos al fan para que pueda ser parte de la agenda de espectáculos de su 
             <div class="row">
 
               <div class="col-12 col-md-3 col-lg-3">
-                <img src="IMAGES/imagen-show.png" class="img-fluid" alt="">
+                <img src="imagenes/imagen-show.png" class="img-fluid" alt="">
               </div>
 
               <div class="col-12 col-md-9 col-lg-9">
@@ -165,8 +221,8 @@ Empoderamos al fan para que pueda ser parte de la agenda de espectáculos de su 
                 <div class="row botonesBoxEvento">
                   <div class="col-12 col-md-3 col-lg-3"><button type="button" class="btn btn-outline-info">MAS INFO</button></div>
                   <div class="col-12 col-md-3 col-lg-3"><button type="button" class="btn btn-outline-info">APORTÁ</button></div>
-                  <div class="col-12 col-md-3 col-lg-3"><h3>COUNTDOWN</h3></div>
-                  <div class="col-12 col-md-3 col-lg-3"><h3>APORTANDO X/Y</h3></div>
+                  <div class="col-12 col-md-3 col-lg-3"><h5>COUNTDOWN</h5></div>
+                  <div class="col-12 col-md-3 col-lg-3"><h5>APORTANDO X/Y</h5></div>
                 </div>
                 </div>
               </div>
@@ -177,7 +233,6 @@ Empoderamos al fan para que pueda ser parte de la agenda de espectáculos de su 
 
       </div>
     </section>
-
 <!-- MAS PEDIDOS
 ========================================================== -->
 
@@ -190,26 +245,26 @@ Empoderamos al fan para que pueda ser parte de la agenda de espectáculos de su 
         <div class="row" id="requests">
 
           <div class="col-12 col-md-6 col-lg-3 showRequest">
-            <img src="IMAGES/mas-pedidos.png" class="img-fluid" alt="">
+            <img src="imagenes/mas-pedidos.png" class="img-fluid" alt="">
             <h2>TITULO EVENTO</h2>
             <button type="button" class="btn btn-secondary btn-lg btn-block">PEDÍ ESTE SHOW</button>
           </div>
 
           <div class="col-12 col-md-6 col-lg-3 showRequest">
-            <img src="IMAGES/mas-pedidos.png" class="img-fluid" alt="">
+            <img src="imagenes/mas-pedidos.png" class="img-fluid" alt="">
             <h2>TITULO EVENTO</h2>
             <button type="button" class="btn btn-secondary btn-lg btn-block">PEDÍ ESTE SHOW</button>
           </div>
 
           <div class="col-12 col-md-6 col-lg-3 showRequest">
-            <img src="IMAGES/mas-pedidos.png" class="img-fluid" alt="">
+            <img src="imagenes/mas-pedidos.png" class="img-fluid" alt="">
             <h2>TITULO EVENTO</h2>
             <button type="button" class="btn btn-secondary btn-lg btn-block">PEDÍ ESTE SHOW</button>
           </div>
 
           <div class="col-12 col-md-6 col-lg-3 showRequest">
-            <img src="IMAGES/mas-pedidos.png" class="img-fluid align-self-center" alt="">
-            <h2>TITULO EVENTO K</h2>
+            <img src="imagenes/mas-pedidos.png" class="img-fluid " alt="">
+            <h2>TITULO EVENTO</h2>
             <button type="button" class="btn btn-secondary btn-lg btn-block">PEDÍ ESTE SHOW</button>
           </div>
 

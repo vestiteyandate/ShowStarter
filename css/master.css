@@ -2,28 +2,79 @@
 /* AZUL #5197b1
   VERDE #56b0a2 */
 
+/* ------------------ ESTILOS TIPOGRÁFICOS ---------------*/
+
+h1{
+  font-family: Montserrat
+  font-size: 2.5rem;
+}
+
+h2{
+  font-family: Montserrat;
+  font-size: 2rem;
+}
+
+h3{
+    font-family: Nunito sans;
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+
+h4{
+    font-family: Nunito Sans;
+    font-size: 1.5rem;
+}
+
+h5{
+  font-family: Nunito Sans;
+  font-size: 1.25rem;
+}
+
+p{
+  font-family: Nunito Sans;
+  font-size: 1rem;
+}
+
+.body{
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif
+  display: flex;
+}
 #principal{
+  background-image: url('../imagenes/SHO-static.png');
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: black;
   color:white;
   height: 100vh;
+  text-align: center;
+  margin: auto;
 
 }
 
 #queEs{
-  background-color: #5197b1;
   height: 100vh;
+  width: 65%;
+  color: white;
+  font-family: Nunito Sans;
 }
 
 #showsImpulsados{
     background-color: #f2f2f2;
     overflow: hidden;
+    color: #5197b1;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
 }
 
 #masPedidos{
     background-color: #56b0a2;
-    padding-top: 160px;
-    padding-bottom: 160px;
-    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: white;
 
 }
 
@@ -76,5 +127,31 @@
   margin: auto;
   padding: 10px;
   justify-content:space-between;
+  font-weight: 100;
 
+}
+
+#logoHome{
+  width: 35%;
+  vertical-align: center;
+}
+.logo{
+  text-align: center;
+  padding-left: 70px 0;
+}
+
+.separador{
+  border: 1px #5197b1 solid;
+}
+
+.centrado{
+  align-content: space-around;
+}
+
+.instrucciones{
+  padding: 10px;
+}
+
+.azul{
+    background-color: #5197b1;
 }
