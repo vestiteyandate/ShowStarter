@@ -1,7 +1,6 @@
 
 /* AZUL #5197b1
-  VERDE #56b0a2
-  GRIS #f2f2f2 */
+  VERDE #56b0a2 */
 
 /* ------------------ ESTILOS TIPOGRÁFICOS ---------------*/
 
@@ -160,8 +159,4 @@ p{
 .footerNav{
   justify-content: space-around;
   font-weight: bold;
-}
-
-.ocultar{
-  display: none;
 }
