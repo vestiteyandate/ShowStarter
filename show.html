@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito+Sans|Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/productos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Show</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+
+      <!------------- BARRA DE NAVEGACION  ----------->
+      <header>
+      <nav class="navbar navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/logo-nav.png" alt="showstarter-logo" style="height:3vh;">
+        </a>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            =
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Ingresar</a>
+            <a class="dropdown-item" href="#">Todos los shows</a>
+            <a class="dropdown-item" href="#">FAQs</a>
+          </div>
+        </div>
+      </nav>
+      </header>
+
+    <!----------------- DETALLE SHOW ------------------>
+
+
+    <div class="row boxEvento">
+
+      <div class="col-12 col-md-3 col-lg-3">
+        <img src="imagenes/master_cover.jpg" class="img-fluid" alt="">
+      </div>
+
+      <div class="col-12 col-md-9 col-lg-9">
+        <p>Recital</p>
+        <h1>METALLICA EN RIVER PLATE</h1>
+        <h4>20/1/2019</h4>
+        <h4>Estadio Monumental River Plate</h4>
+        <h4>$4000</h4>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+          </div>
+        </div>
+
+        <div class="row botonesBoxEvento">
+          <div class="col-12 col-md-3 col-lg-3"><button type="button" class="btn btn-outline-info">MAS INFO</button></div>
+          <div class="col-12 col-md-3 col-lg-3"><button type="button" class="btn btn-outline-info">APORTÁ</button></div>
+          <div class="col-12 col-md-3 col-lg-3"><h3>COUNTDOWN</h3></div>
+          <div class="col-12 col-md-3 col-lg-3"><h3>APORTANDO X/Y</h3></div>
+        </div>
+        </div>
+      </div>
+
+      <section>
+        <div class="row boxInfo">
+          <div class="col-12 col-md-6 col-lg-6"> <p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> </div>
+          <div class="col-12 col-md-6 col-lg-6">
+          <img src="imagenes/show-metallica.jpg" class="img-fluid show" alt="Responsive image">
+          </div>
+
+        </div>
+      </section>
+<!------------- EMBED DE EVENTBRITE ------------>
+
+      <div style="width:100%; text-align:left;"><iframe src="https://eventbrite.com.ar/tickets-external?eid=68829010423&ref=etckt" frameborder="0" height="450" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="https://www.eventbrite.com.ar/">Facilitado por Eventbrite</a></div></div>
+
+<!-------------- SECCION MAS PEDIDOS ----------->
+
+      <section id="masPedidos">
+          <h1>SHOWS MÁS PEDIDOS</h1>
+          <br><br>
+
+          <div class="container-fluid" id="pedidos">
+
+            <div class="row" id="requests">
+
+              <div class="col-12 col-md-6 col-lg-3 showRequest">
+                <img src="imagenes/reales/maspedidos/brujos.png" class="img-fluid" alt="">
+                <h5 style="padding-top:15px;">LOS BRUJOS</h5>
+                <button type="button" class="btn btn-secondary btn-lg btn-block">PEDÍ ESTE SHOW</button>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3 showRequest">
+                <img src="imagenes/reales/maspedidos/casciari.jpg" class="img-fluid" alt="">
+                <h5 style="padding-top:15px;">HERNAN CASCIARI</h5>
+                <button type="button" class="btn btn-secondary btn-lg btn-block">PEDÍ ESTE SHOW</button>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3 showRequest">
+                <img src="imagenes/reales/maspedidos/catriel.jpg" class="img-fluid" alt="">
+                <h5 style="padding-top:15px;">CA7RIEL</h5>
+                <button type="button" class="btn btn-secondary btn-lg btn-block">PEDÍ ESTE SHOW</button>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3 showRequest">
+                <img src="imagenes/reales/maspedidos/nicola-cruz.jpg" class="img-fluid " alt="">
+                <h5 style="padding-top:15px;">NICOLA CRUZ</h5>
+                <button type="button" class="btn btn-secondary btn-lg btn-block">PEDÍ ESTE SHOW</button>
+              </div>
+
+            </div>
+          </div>
+
+      </section>
+
+
+<!-------------------- FOOTER ------------------------>
+
+      <footer>
+        <div class="container-fluid" id="footer">
+          <div class="row">
+            <div class="col-lg-3 offset-1">
+              <img class="img-fluid" src="imagenes/logo-nav.png" alt="showstarter logo">
+
+              <ul class="list-inline">
+                 <li class="list-inline-item"><i class="fab fa-twitter fa-lg"></i></li>
+                 <li class="list-inline-item"><i class="fab fa-instagram fa-lg"></i></li>
+                 <li class="list-inline-item"><i class="fab fa-facebook-square fa-lg"></i></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-5">
+                <ul class='list-unstyled footerNav'>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="todos-los-shows.html">TODOS LOS SHOWS</a></li>
+                  <li><a href="FAQ.html">FAQS</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <i class="fas fa-chevron-up fa-5x"></i>
+                <a href="productos.html"><p>IR ARRIBA</p></a>
+            </div>
+
+
+          </div>
+        </div>
+      </footer>
+
+</div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
