@@ -7,7 +7,7 @@
 
 h1{
   font-family: Montserrat
-  font-size: 2.5rem;
+  font-size: 15.5vh;
 }
 
 h2{
@@ -144,9 +144,6 @@ p{
   border: 1px #5197b1 solid;
 }
 
-.centrado{
-  align-content: space-around;
-}
 
 .instrucciones{
   padding: 10px;
@@ -197,6 +194,52 @@ p{
   display: none;
 }
 
+#login{
+  background: linear-gradient(0deg, rgba(83,140,170,1) 0%, rgba(81,151,177,1) 32%, rgba(86,176,162,1) 60%, rgba(237,224,91,1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logoLogin{
+  width: 10%;
+  height: 10%;
+  margin: auto;
+  margin-top: 20%;
+  display: block;
+
+}
+
+#contenedorLogin{
+  color: white;
+  height: 100vh;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+#loginHijo{
+  width: 50%;
+  margin:auto;
+}
+
+.botones{
+  border-radius: 25px;
+  background-color: white;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.botonCasero{
+  background-color: white;
+  border: white, 2px, solid;
+  color: #5197b1;
+  width: 40%;
+  align-items: center;
+  text-align: center;
+}
+
 /* ------------------ MEDIA QUERIES---------------*/
 
 @include media-breakpoint-up(md) {
@@ -213,7 +256,7 @@ p{
 
 }
 
-@media only screen and (max-width: 1500px) and (min-width: 881px) {
+@media only screen and (max-width: 1800px) and (min-width: 881px) {
 
 .showsMobile{
   display: none;
@@ -233,5 +276,16 @@ p{
 .titulos{
   display: block;
 }
+
+#contenedorLogin{
+  color: white;
+  height: 100vh;
+  width: 50%;
+  margin: auto;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10vh;
 
 }
